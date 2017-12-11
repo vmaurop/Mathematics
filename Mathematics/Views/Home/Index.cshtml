@@ -1,0 +1,51 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Mathematics</title>
+    <meta charset="utf-8" />
+    <script src="~/scripts/Math.js"></script>
+      
+   
+
+    <link rel="stylesheet" href="~/Style/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    Enter Num: <input id="num" size="7">
+    <button onclick="factorial()">Factorial</button>
+    <br>
+    <br>
+    Enter Num: <input id="num1" size="7">
+    <button onclick="sqrt()">SQRT</button>
+    <hr size="10" color="black">
+    <!------------------------------------------------------------------------------------->
+    <p><center><b><font face="Times New Roman" size="5" color="red">The solution of the quadratic equation αχ<sup>2</sup>+βχ+γ=0,α&ne;0</center></font></b></p>
+
+
+    <br>
+    <form name="my" id="myForm">
+        <input type="text" id="a" size="2">χ<sup>2</sup>+<input type="text" id="b" size="2">x+<input type="text" id="c" size="2">=0,α&ne;0 <br>
+
+
+
+        <br>
+        <br>
+        <img src="@Url.Content("~/photo/go2.jpg")" onclick="quadratic_equations()" width="48" height="48">
+
+
+        <!----<p id="input" style="color:red;  font-size:160%;"></p>-->
+
+        <div id="results"></div>
+
+    </form>
+
+    
+  </body>
+</html>
